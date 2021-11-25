@@ -1,0 +1,18 @@
+{
+  "name": "record-blog",
+  "version": "1.0.0",
+  "author": "刘涛",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "homepage": "https://easysimple.github.io/record-blog/",
+  "bugs": "https://github.com/EasySimple/record-blog/issues",
+  "description": "个人博客"
+}
