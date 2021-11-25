@@ -17,7 +17,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     "footer": {
-      "display":false,
+      "display":true,
     },
     "copyrightText":'转载请注明出处',
     "nav": [
@@ -85,6 +85,15 @@ module.exports = {
     "authorAvatar": "/img/avatar.png",
     "record": "转载请注明出处",
     "startYear": "2021",
+    "valineConfig": {
+			appId: 'kPzUder8a8LVas2B3Cf4iXEE-gzGzoHsz',// your appId
+			appKey: 'CRMrTeNnzfaOlkYcjNQzeIEf', // your appKey
+			showComment: false,					// 关闭评论
+			placeholder: 'test placeholder',
+			avatar: 'wavatar',
+			requiredFields: ['nick','mail'],
+			// serverUrl: ''
+		  }
   },
   "markdown": {
     "lineNumbers": true
