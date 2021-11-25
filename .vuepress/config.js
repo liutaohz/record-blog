@@ -12,6 +12,20 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
+    ],
+    // 添加百度统计
+    [
+      "script",
+      {},
+      `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?324e3291a527715a870c6e1d7da28fb1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+      `
     ]
   ],
   "theme": "reco",
