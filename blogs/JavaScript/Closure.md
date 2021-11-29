@@ -45,7 +45,8 @@ bar();
 
 ### 作用域链
 我们在查找d变量的时候，先在函数作用域1中查找，没有找到，逐层向外层作用域查找，有一个往外层查找的过程。如下图红色箭头：我们好像是顺着一条链条从下往上查找变量，这条链条，我们就称之为作用域链。
-![image](/assets/img/javascript/scope_chain.jpg)
+<!-- ![image](/assets/img/javascript/scope_chain.jpg) -->
+<img :src="$withBase('/assets/img/javascript/scope_chain.jpg')" alt="mixureSecure">
 
 ### 作用域嵌套
 在还没有接触到ES6的let、const之前，只有函数作用域和全局作用域，函数作用域肯定是在全局作用域里面的，而函数作用域中又可以继续嵌套函数作用域，如上图，矩形框框作用域层层嵌套。
@@ -117,7 +118,8 @@ console.log('result:',fn3())
 ```
 ## javascript执行过程
 这里大致说一下JavaScript执行过程。
-![image](/assets/img/javascript/JavaScript_Process.png)
+<img :src="$withBase('/assets/img/javascript/JavaScript_Process.png')" alt="mixureSecure">
+<!-- ![image](/assets/img/javascript/JavaScript_Process.png) -->
 
 TODO
 - javascript 执行过程
