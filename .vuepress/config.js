@@ -5,7 +5,7 @@ module.exports = {
   "description": "个人博客",
   "dest": "dist",
   "head": [
-    ['link', { rel: 'icon', href: "/img/avatar.png" }],
+    ['link', { rel: 'icon', href: "/assets/img/avatar.png" }],
     [
       "meta",
       {
@@ -91,12 +91,12 @@ module.exports = {
     //     "link": "https://vuepress-theme-reco.recoluan.com"
     //   }
     // ],
-    "logo": "/img/avatar.png",
+    "logo": "/assets/img/avatar.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "刘涛",
-    "authorAvatar": "/img/avatar.png",
+    "authorAvatar": "/assets/img/avatar.png",
     "record": "转载请注明出处",
     "startYear": "2021",
     "valineConfig": {
