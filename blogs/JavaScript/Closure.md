@@ -1,5 +1,6 @@
 ---
 title: 闭包
+sidebar: auto
 date: 2021-11-25
 tags:
  - 闭包
@@ -114,6 +115,9 @@ var fn3 = function () {
 }
 console.log('result:',fn3())
 ```
+## javascript执行过程
+这里大致说一下JavaScript执行过程。
+![image](/img/javascript/JavaScript执行过程.png)
 
 TODO
 - javascript 执行过程
