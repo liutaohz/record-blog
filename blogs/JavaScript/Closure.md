@@ -117,7 +117,7 @@ console.log('result:',fn3())
 ```
 ## javascript执行过程
 这里大致说一下JavaScript执行过程。
-![image](/img/javascript/JavaScript执行过程.png)
+![image](/img/javascript/JavaScript_Process.png)
 
 TODO
 - javascript 执行过程
