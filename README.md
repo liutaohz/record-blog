@@ -1,5 +1,7 @@
 # record-blog简介
-个人博客::记录 经验总计、学习笔记、日常生活...
+个人博客:记录 经验总结、学习笔记、日常生活...
+
+[博客地址](https://easysimple.github.io/record-blog/)
 
 ## 命令
 - npm i (加载依赖)
