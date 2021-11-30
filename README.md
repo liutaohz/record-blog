@@ -1,28 +1,22 @@
----
-home: true
-heroText: null
-tagline: null
-# heroImage: /avatar.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImage: '/assets/img/bg.jpeg'
-bgImageStyle: {
-  height: '450px'
-}
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
-features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
----
+# record-blog简介
+个人博客::记录 经验总计、学习笔记、日常生活...
+
+## 命令
+- npm i (加载依赖)
+- npm run dev (本地运行，启动博客)
+- npm run build (打包)
+- npm run deploy （部署到github page上）
+
+## 博客搭建使用技术
+- vuepress
+- vuepress-theme-reco@1.6.6
+- gh-page
+
+## 自定义修改添加功能点
+
+- 添加页面访问量显示，使用Valine、leancloud
+- 添加页面PV埋点统计，使用百度埋点
+
+## 注意
+如果想直接使用这个项目模板，你需要把“/record-blog/.vuepress/config.js”中valineConfig换成自己的信息。
+同样的百度埋点信息在“/record-blog/.vuepress/enhanceApp.js”中，也需要替换本人的百度统计代码
