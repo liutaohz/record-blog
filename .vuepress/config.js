@@ -45,30 +45,33 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
+      {
+        "text": "设计模式",
+        "icon": "reco-message",
+        "items": [
+          {
+            "text": "单例模式",
+            "link": "/docs/design-mode/singleton-mode"
+          },
+          {
+            "text": "策略模式",
+            "link": "/docs/design-mode/strategy-mode"
+          }
+        ]
+      },
       {
         "text": "GitHub",
         "link": githubUrl,
         "icon": "reco-github",
       }
     ],
-    // "sidebar": {
-    //   "/docs/theme-reco/": [
-    //     "",
-    //     "theme",
-    //     "plugin",
-    //     "api"
-    //   ]
-    // },
+    "sidebar": {
+      "/docs/design-mode/": [
+        // "",
+        "singleton-mode",
+        "strategy-mode",
+      ]
+    },
     "type": "blog",
     "blogConfig": {
       "category": {

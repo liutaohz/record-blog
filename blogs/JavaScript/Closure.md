@@ -2,6 +2,7 @@
 title: 闭包
 sidebar: auto
 date: 2021-11-25
+sticky: true
 tags:
  - 闭包
  - JavaScript
