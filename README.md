@@ -1,7 +1,15 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-25 16:34:50
+ * @LastEditTime: 2021-12-02 00:17:52
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /netease/github/record-blog/README.md
+-->
 # record-blog简介
 个人博客:记录 经验总结、学习笔记、日常生活...
-
 [博客地址](https://easysimple.github.io/record-blog/)
+让搭建博客部署博客更加简单，你可以更专注于写博客内容。
 
 ## 命令
 - npm i (加载依赖)
