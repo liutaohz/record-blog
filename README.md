@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-11-25 16:34:50
- * @LastEditTime: 2021-12-02 00:19:34
+ * @LastEditTime: 2021-12-02 00:46:58
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /netease/github/record-blog/README.md
@@ -26,8 +26,10 @@
 
 ## 自定义修改添加功能点
 
-- 添加页面访问量显示，使用Valine、leancloud
-- 添加页面PV埋点统计，使用百度埋点
+- 添加页面访问量显示，使用Valine、leancloud。在网站平台查看后台数据效果如下
+![image](.vuepress/public/assets/img/md/leancloud.png)
+- 添加页面PV埋点统计，使用百度埋点。在网站平台查看埋点数据效果如下
+![image](.vuepress/public/assets/img/md/baidu_PV.png)
 
 ## 注意
 如果想直接使用这个项目模板，你需要把“/record-blog/.vuepress/config.js”中valineConfig换成自己的信息。
